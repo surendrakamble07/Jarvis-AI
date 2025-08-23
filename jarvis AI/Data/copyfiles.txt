@@ -1,0 +1,73 @@
+Here is a sample code to copy files in different programming languages:
+
+**Python**
+```
+import shutil
+
+# Source and destination file paths
+src_file = 'source_file.txt'
+dst_file = 'destination_file.txt'
+
+# Copy the file
+shutil.copyfile(src_file, dst_file)
+```
+
+**Java**
+```
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class CopyFile {
+    public static void main(String[] args) {
+        try {
+            File srcFile = new File("source_file.txt");
+            File dstFile = new File("destination_file.txt");
+
+            FileInputStream fis = new FileInputStream(srcFile);
+            FileOutputStream fos = new FileOutputStream(dstFile);
+
+            byte[] buffer = new byte[1024];
+            int len;
+            while ((len = fis.read(buffer)) > 0) {
+                fos.write(buffer, 0, len);
+            }
+
+            fis.close();
+            fos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+**C++**
+```
+#include <fstream>
+
+int main() {
+    std::ifstream srcFile("source_file.txt", std::ios::binary);
+    std::ofstream dstFile("destination_file.txt", std::ios::binary);
+
+    dstFile << srcFile.rdbuf();
+
+    srcFile.close();
+    dstFile.close();
+
+    return 0;
+}
+```
+
+**Shell Script (Bash)**
+```
+#!/bin/bash
+
+src_file="source_file.txt"
+dst_file="destination_file.txt"
+
+cp "$src_file" "$dst_file"
+```
+
+Let me know if you need help with anything else!

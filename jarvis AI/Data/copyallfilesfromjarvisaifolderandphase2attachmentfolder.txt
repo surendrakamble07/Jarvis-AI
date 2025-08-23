@@ -1,0 +1,24 @@
+Here is a sample command to copy all files from the "Jarvis AI" folder and the "Phase 2 Attachment" folder:
+
+**Windows Command Prompt:**
+
+```
+xcopy /s "C:\Path\To\Jarvis AI\*" "C:\Destination\Folder"
+xcopy /s "C:\Path\To\Phase 2 Attachment\*" "C:\Destination\Folder"
+```
+
+**Mac/Linux Terminal:**
+
+```
+cp -r /Path/To/Jarvis\ AI/* /Destination/Folder
+cp -r /Path/To/Phase\ 2\ Attachment/* /Destination/Folder
+```
+
+**Note:** 
+
+* Replace `C:\Path\To\Jarvis AI` and `C:\Path\To\Phase 2 Attachment` with the actual paths to the folders you want to copy from.
+* Replace `C:\Destination\Folder` with the actual path to the folder you want to copy to.
+* The `/s` option in the Windows command stands for "subdirectories" and will copy all files and subfolders from the source folder.
+* The `-r` option in the Mac/Linux command stands for "recursive" and will copy all files and subfolders from the source folder.
+
+Let me know if you need any further assistance!

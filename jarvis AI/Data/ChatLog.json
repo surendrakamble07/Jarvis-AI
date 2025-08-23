@@ -1,0 +1,74 @@
+[
+    {
+        "role": "user",
+        "content": "Hello jarvis."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello Surendra! It's nice to meet you. What can I assist you with today?"
+    },
+    {
+        "role": "user",
+        "content": "Google assistant if you want to automatically your pc to use using your voice command."
+    },
+    {
+        "role": "assistant",
+        "content": "You're referring to voice-controlled desktop access. For that, you can use Google Assistant with Chrome OS or Windows 10 devices that have the Google Assistant app installed. Additionally, you can also use Google's \"Voice Access\" feature, which allows you to control your desktop with voice commands."
+    },
+    {
+        "role": "user",
+        "content": "(query)."
+    },
+    {
+        "role": "assistant",
+        "content": "You're looking for the voice command to activate Google Assistant. The voice command is: \"Ok Google\" or \"Hey Google\"."
+    },
+    {
+        "role": "user",
+        "content": "Hello jarvis."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Surendra! What's on your mind?"
+    },
+    {
+        "role": "user",
+        "content": "Hello jarvis."
+    },
+    {
+        "role": "assistant",
+        "content": "Hi Surendra!"
+    },
+    {
+        "role": "user",
+        "content": "What is the message from aditya gite?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not aware of any message from Aditya Gite. Could you please provide more context or clarify what you're referring to?"
+    },
+    {
+        "role": "user",
+        "content": "I said aditya geete."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the mistake. I don't have any information about a message from Aditya Geete. Could you please provide more context or details about who Aditya Geete is and what message you're referring to?"
+    },
+    {
+        "role": "user",
+        "content": "Okay go to the aditya gite chat section."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but I don't have any chat section or conversation history with Aditya Geete. I'm a fresh start with each interaction, and I don't retain any information from previous conversations. Each time you interact with me, it's a new conversation."
+    },
+    {
+        "role": "user",
+        "content": "I said jarvis ai folder."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the confusion. I don't have any information about an \"Aditya Geete\" folder or chat section within my system. I'm a conversational AI, and I don't have the ability to access or store folders or chat histories. Each interaction with me is a new, isolated conversation."
+    }
+]
