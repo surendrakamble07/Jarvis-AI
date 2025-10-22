@@ -79,7 +79,7 @@ def ChatBot(Query):
             messages =load(f)
         messages.append({"role": "user", "content": f"{Query}"})
         completion = client.chat.completions.create(
-            model="llama3-70b-8192", #Specify the AI model to use.
+            model="llama-3.3-70b-versatile", #Specify the AI model to use.
             messages=SystemChatBot + [{"role": "system", "content": RealtimeInformation()}] + messages,
             max_tokens=1024, # Limit the maximum tokens in the response.
             temperature=0.7, # Adjust response randomness (higher means more random).
